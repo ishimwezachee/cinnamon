@@ -39,12 +39,12 @@ h2{
 .list{
     display: flex;
     gap: 20px;
-    text-align: center;
+    align-items: center;
 }
 
 
 .list li{
-    font-size: 26px;
+    font-size: 20px;
     color: white;
     
 }
@@ -60,7 +60,7 @@ button#btn-contact{
     color: white;
     margin-left: 40px;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -71,7 +71,7 @@ span.material-symbols-outlined {
 
 .one h2{
     color: white;
-    font-size: 8rem;
+    font-size: 6rem;
     width: 100%;
     padding: 7rem;
     padding-bottom: 2rem;
@@ -102,7 +102,6 @@ span.material-symbols-outlined {
 p.txt {
     writing-mode: vertical-lr; 
     transform: rotate(180deg);
-    font-size: 20px;
     margin-top: 7rem;
     font-size: 20px;
 }
@@ -122,14 +121,14 @@ p.txt {
 .ios{
     color: rgb(83, 83, 83);
     margin-left: 7rem;
-    font-size: 22px;
+    font-size: 16px;
 
 }
 
 
 h3.smart {
     margin-left: 7rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
