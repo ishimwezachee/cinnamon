@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(46, 46, 46);
+    background-image:url("https://cinnamon.agency/images/noise.png");
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+h2{
+    margin: 0;
+}
+
+
+
+
+  
+
+.list{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.list li{
+    font-size: 26px;
+    color: white;
+    
+}
+
+.one{
+    background-color: rgb(46, 46, 46);
+    background-image:url("https://cinnamon.agency/images/noise.png");
+}
+
+button#btn-contact{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+span.material-symbols-outlined {
+    font-size: 2.5rem;
+    align-self: center;
+}
+
+.one h2{
+    color: white;
+    font-size: 8rem;
+    width: 100%;
+    padding: 7rem;
+    padding-bottom: 2rem;
+    padding-top: 15rem;
+}
+
+.one p{
+    color: darkgray;
+    font-size: 30px;
+    padding-left: 7rem;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
+
+
+.smallimg{
+    width:200px;
+    height: 200px;
+}
+
+
+p.txt {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    font-size: 20px;
+    margin-top: 7rem;
+    font-size: 20px;
+}
+
+.code_area{
+    background-color: rgb(255, 217, 0);
+    margin: 7rem;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.img_code{
+    width: 100%;
+}
+
+.ios{
+    color: rgb(83, 83, 83);
+    margin-left: 7rem;
+    font-size: 22px;
+
+}
+
+
+h3.smart {
+    margin-left: 7rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.three{
+    margin-top: 15rem;
+}
+
+.cod2{
+    background-color: aquamarine;
+}
+
+.cod3{
+    background-color: #504a72;
+}
